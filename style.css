@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+
+body{
+    background: #c7bfbf;
+}
+
+.calc{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #080808;
+    filter: drop-shadow(0 0 20px #080808);
+    width: 300px;
+    height: 500px;
+    border-radius: 24px;
+}
+
+.displayBox{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: #131313;
+    width: 250px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+p{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.numButtons {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+button{
+    background:#131313;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 0 0 5px #00ffee;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: .4s ease;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #00ffee;
+}
+
+.result{
+    border-radius: 20px;
+    width: 115px;
+}
